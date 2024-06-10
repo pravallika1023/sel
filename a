@@ -1,0 +1,13 @@
+package pk;
+import org.openqa.selenium.chrome.chromeDriver
+import org.openqa.selenium.webDriver
+class one{
+public static void main(String args[])
+{
+System.setproperty("webdriver.chrome.chromedriver";
+WebDriver driver =new chromedriver();
+driver.get("     ")
+System.out.println(driver.getTitle());
+driver.quit();
+}
+}
