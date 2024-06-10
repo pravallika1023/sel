@@ -4,7 +4,7 @@ import org.openqa.selenium.webDriver
 class one{
 public static void main(String args[])
 {
-System.setproperty("webdriver.chrome.chromedriver";
+System.setproperty("webdriver.chrome.chromedriver",push);
 WebDriver driver =new chromedriver();
 driver.get("     ")
 System.out.println(driver.getTitle());
